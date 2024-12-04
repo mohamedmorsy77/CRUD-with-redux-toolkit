@@ -1,11 +1,10 @@
 import React from "react";
-import Header from "./shared/header/Header";
-import Footer from "./shared/footer/Footer";
+import RouteHandle from "./routes/RouteHandle";
+
 function App() {
   return (
     <div className="App">
-       <Header />
-       <Footer />
+      <RouteHandle />
     </div>
   );
 }
